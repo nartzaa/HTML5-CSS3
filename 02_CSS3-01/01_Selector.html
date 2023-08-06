@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS 3</title>
+    <style>
+        h1{
+            color: red;
+            font-size: 50px;
+        }
+        .title{
+            color: green;
+            font-size: 100px;
+            background-color: aquamarine;
+        }
+        #title{
+            color: yellow;
+        }
+        h1,.title,#title,p{
+            font-style: italic;
+        }
+        p.message{
+            font-weight: bolder;
+        }
+        h1.message{
+            color: green;
+        }
+        *{
+            background-color: grey;
+            /* font-size: 20px; */
+        }
+    </style>
+</head>
+<body>
+    <h1>Kampanart</h1>
+    <h1 class="title">HTML5</h1>
+    <h1 id="title">CSS3</h1>
+    <p>Tag p without class</p>
+    <p class="message">Tag p with class</p>
+    <h1 class="message">Tag h1 with class</h1>
+</body>
+</html>

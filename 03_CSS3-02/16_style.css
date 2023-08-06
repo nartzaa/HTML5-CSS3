@@ -1,0 +1,36 @@
+/* .box-1, .box-2, .box-3{
+    border: 1px solid black;
+} */
+
+/* .box-1{
+    border: 1px solid black;
+}
+.box-2{
+    border: 1px solid black;
+}
+.box-3{
+    border: 1px solid black;
+} */
+
+:root{
+    --box:1px solid red;
+    --theme:yellow;
+    --shadow: 5px 5px var(--theme);
+    --spacing:5px;
+}
+.box-1{
+    border: var(--box);
+    box-shadow: var(--shadow);
+    margin: var(--spacing);
+}
+.box-2{
+    border: var(--box);
+    margin: var(--spacing);
+}
+.box-3{
+    border: var(--box);
+    margin: var(--spacing);
+}
+body{
+    /* background-color: var(--theme); */
+}

@@ -1,0 +1,13 @@
+p{
+    background-color: orange;
+}
+
+/* Descendant selector */
+div p{
+    background-color: greenyellow;
+}
+
+/* Chile selector */
+div>p{
+    background-color: yellow;
+}
